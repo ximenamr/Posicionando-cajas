@@ -1,0 +1,57 @@
+#contenido{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: absolute;
+}
+
+.div_prueba {
+  background-color: purple;
+  height: 250px;
+  width: 250px;
+  /*se posiciona en un punto especifico*/
+  position: absolute;
+  /* se le da coordenadas para la parte superior y el lado izquierdo*/
+  top: 120px;
+  left: 120px;
+}
+
+.div_prueba2{
+ width: 130px;
+ height: 130px;
+ background-color: yellow;
+ position: absolute;
+
+}
+/* cuadro 2*/
+#contenido2{
+  /*se le da un margen de espacio con respecto al primer cuadro*/
+  margin-top: 550px;
+  margin-bottom: 200px;
+  /*se asigna ancho y alto*/
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  /*se posiciona en un punto especifico*/
+  position: absolute;
+}
+/* cuadro interior*/
+.div_prueba3{
+  /*se asigna color de fondo, ancho y alto*/
+  background-color: green;
+  height: 250px;
+  width: 250px;
+  /*se asigna posicion especifica dandole 'coordenas'*/
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+/*cuadro externo*/
+.div_prueba4{
+  /*se asigna tamaño, ancho y alto*/
+  background-color: black;
+  height: 120px;
+  width: 120px;
+  /*se asigna position relative para que vaya pegado al div que lo contiene*/
+  position: relative;
+}
